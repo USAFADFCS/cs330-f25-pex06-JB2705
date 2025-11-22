@@ -3,7 +3,12 @@
 
 -- name: Jack Barnett
 
-{- DOCUMENTATION:
+{- DOCUMENTATION: I used chatGPT after I was quite stuck on a "parse error" I was getting in my code. This lead to me realizing that I was using indentation and the if then format slightly incorrectly,
+and head and tail instead of fst and snd for the pairs, which was the main issue. Once I fixed these small misunderstandings I wrote the rest of this code. To be clear, none of this code was written by AI. It was used as a last resort after
+being stuck for far too long on error messages. 
+
+OTHER NOTES: While I believe my type I detection works how it should, my type II unfortunatley still has some large flaws and only works on specific test cases. This is not from a lack of effort or time put in, I just do not understand 
+how to solve the part II completley in haskell which frustrtes me.
 -}
 
 unKnot :: [(Char, Char)] -> String
